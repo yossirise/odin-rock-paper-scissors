@@ -30,7 +30,7 @@ function computerPlay() {
 
 function getPlayerSelection() {
   const playerSelection = capitalize(
-    prompt("Rock, Paper, or Scissors?".trim())
+    prompt("Rock, Paper, or Scissors?").trim()
   );
 
   if (!OPTIONS.includes(playerSelection)) {
